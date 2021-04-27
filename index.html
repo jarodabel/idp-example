@@ -6,10 +6,10 @@
 
   <script>
       function idpSignin(){
-        // this url should be to your IDP
-        // In this example I am using OKTA as an IDP, I got this url from my OKTA application user interface
-        // You can make a free account in OKTA and get your Identity Provider Single Sign-On URL from there
-        // Then set up your OKTA application with the Post back url I provided in email
+        // this url should be to your IDP - "Identity Provider Single Sign-On URL"
+        // In this example I am using Okta as an IDP, its a free developer account
+        // In Okta, you can set up a SAML application and you will find the Single Sign-On URL 
+        // Then set up your Okta application with the Post Back URL I provided in email
         const url = 'https://dev-70951740.okta.com/app/dev-70951740_arodjabel_1/exk6w8u812Z0opbdM5d6/sso/saml';
         window.open(`${url}`);
       }
